@@ -6,16 +6,36 @@ user story:
 5. as a user, I want to be able to try again
 
 pseudocode:
-1. Define constants and variables needed for the game.
-2. Define the app’s state variables (do not assign values yet).
-3. Select and cache DOM elements that will be accessed multiple times.
-4. Add delegated event listeners for user interactions (e.g., board clicks, play again button).
-5. Invoke the init() function to initialize all state variables.
-6. Invoke the render() function to update the DOM based on state variables.
-7. Wait for the user to click on a column button:
-    7.1. Update state variables based on the user’s move.
-    7.2. Invoke render() to reflect changes in the DOM.
-    7.3. Check for a win or draw.
-8. Wait for the user to click the “Play Again” button:
-    8.1. Invoke init() to reset all state variables.
-    8.2. Invoke render() to update the DOM for a new game.
+1. Game Setup
+أ. Create a board that has 6 rows and 7 columns.
+
+ب. Keep track of the current player (e.g., Player Red or Player Yellow).
+
+ج. Create a message display to tell players whose turn it is.
+
+د. Make a Reset button to start a new game.
+
+2. Player's Turn
+أ. Wait for the current player to click on a column.
+
+ب. Find the lowest open space in that column.
+
+ج. Place the current player's colored token in that space.
+
+د. Check if that move ended the game.
+
+3. Check for a win
+After each move, check for two things:
+
+Winning: Did the last token placed create a four-in-a-row horizontally, vertically, or diagonally?
+
+Drawing: Is the entire board now full of tokens?
+
+If a player has won, declare them the winner and stop the game.
+
+If the board is full, declare the game a draw and stop the game.
+
+If the game is not over, switch the turn to the other player.
+
+4. Resetting the Game
+When the "Reset" button is clicked, clear the board and start over from the "Game Setup" step.
