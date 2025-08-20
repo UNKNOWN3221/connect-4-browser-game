@@ -6,16 +6,16 @@ user story:
 5. as a user, I want to be able to try again
 
 pseudocode:
-1. Game Setup
-أ. Create a board that has 6 rows and 7 columns.
+1. Game Setup:
+أ. Create a board that has 6 rows and 7 columns. *
 
-ب. Keep track of the current player (e.g., Player Red or Player Yellow).
+ب. Keep track of the current player (e.g., Player Red or Player Yellow). 
 
-ج. Create a message display to tell players whose turn it is.
+ج. Create a message display to tell players whose turn it is.*
 
-د. Make a Reset button to start a new game.
+د. Make a Reset button to start a new game. *
 
-2. Player's Turn
+2. Player's Turn:
 أ. Wait for the current player to click on a column.
 
 ب. Find the lowest open space in that column.
@@ -24,18 +24,16 @@ pseudocode:
 
 د. Check if that move ended the game.
 
-3. Check for a win
-After each move, check for two things:
-
+3. Check for a win:
+أ. After each move, check for two things:
 Winning: Did the last token placed create a four-in-a-row horizontally, vertically, or diagonally?
-
 Drawing: Is the entire board now full of tokens?
 
-If a player has won, declare them the winner and stop the game.
+ب. If a player has won, declare them the winner and stop the game.
 
-If the board is full, declare the game a draw and stop the game.
+ج. If the board is full, declare the game a draw and stop the game.
 
-If the game is not over, switch the turn to the other player.
+د. If the game is not over, switch the turn to the other player.
 
-4. Resetting the Game
+4. Resetting the Game:
 When the "Reset" button is clicked, clear the board and start over from the "Game Setup" step.
