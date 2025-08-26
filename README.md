@@ -37,3 +37,37 @@ Drawing: Is the entire board now full of tokens?
 
 4. Resetting the Game:
 When the "Reset" button is clicked, clear the board and start over from the "Game Setup" step.
+
+
+# 🎮 Connect 4 Browser Game  
+
+## 📝 Description  
+A simple two-player Connect 4 game built with **JavaScript, HTML, and CSS**. Players take turns dropping red or yellow tokens into a 6x7 grid. The objective is to be the first to connect four tokens horizontally, vertically, or diagonally.  
+
+## ℹ️ Background  
+I chose Connect 4 because it’s a classic strategy game that’s both fun and easy to play. Building it gave me a chance to practice important programming concepts like:  
+- Working with **arrays** to represent the game board.  
+- Implementing **game logic** for win detection.  
+- Using **DOM manipulation** to update the UI in real time.  
+
+## 🚀 Getting Started  
+- **Play the game here:** [Insert your deployed link – GitHub Pages/Netlify/Vercel]  
+- **How to play:**  
+  - Click on any column to drop your token.  
+  - Players alternate turns (Red goes first).  
+  - The game automatically detects and announces the winner or a tie.  
+- **Planning materials:** [Insert your planning document / Trello board / wireframes link if you have one]  
+
+## 🙌 Attributions  
+- (Optional: Add links to any **sound effects, images, or libraries** you used. If everything was created from scratch, this section can be omitted.)  
+
+## 💻 Technologies Used  
+- JavaScript  
+- HTML  
+- CSS  
+
+## 🔮 Next Steps (Stretch Goals)  
+- Add a single-player mode with a computer AI opponent.  
+- Improve design with animations and sound effects.  
+- Add a scoreboard to track multiple games.  
+- Make the game mobile-friendly.  
