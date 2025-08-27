@@ -1,3 +1,4 @@
+![alt text](<Screenshot 2025-08-27 134951.png>)
 # Connect 4 Browser Game  
 
 ## Description  
