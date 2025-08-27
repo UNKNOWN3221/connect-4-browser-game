@@ -54,7 +54,7 @@ I chose Connect 4 because it's a classic strategy game that's both fun and easy 
 ## Attributions  
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator
 - https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset
-## 💻 Technologies Used  
+## Technologies Used  
 - JavaScript  
 - HTML  
 - CSS  
